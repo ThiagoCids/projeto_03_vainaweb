@@ -11,25 +11,18 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-
-  .btnAdote {
-    background-color: #f97415;
-    color: #ffffff;
-    //1ª Opção de mexer no tamanho do botão width/height:
-    // width: 8%;
-    // height: 5vh;
-    font-size: 1.25rem;
-    border-radius: 10px;
-    font-weight: 700;
-    border: none;
-
-    //2ª Opção de mexer no tamanho do botão padding:
-    padding: 20px;
-  }
+}
+header .btnAdote {
+  background-color: #f97415;
+  color: #ffffff;
+  font-size: 1.25rem;
+  border-radius: 10px;
+  font-weight: 700;
+  border: none;
+  padding: 20px;
 }
 
 .banner {
-//  background-color: pink ;
   height: 70vh;
   padding: 1rem;
 }
@@ -48,8 +41,6 @@ article {
   font-size: 3.75rem;
 }
 
-//Galeria de imagens , imagens circulares
-
 .galeria {
   display: flex;
   justify-content: space-around;
@@ -63,15 +54,14 @@ article {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
-
-  .descricao,
-  .nome {
-   display: none;
-  }
+}
+.pet .descricao,
+.pet .nome {
+  display: none;
 }
 
 .imgPet {
   width: 50%;
   height: 20vh;
   border-radius: 100%;
-}
+}/*# sourceMappingURL=style.css.map */
